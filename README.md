@@ -23,5 +23,5 @@ git clone https://github.com/RobertBrowser228/blender-product-viz.git
 ```
 
 ## Contact
-Available for remote work. Brasil 🇧🇷
+Available for remote work
 i.a.dubrovsky@gmail.com
