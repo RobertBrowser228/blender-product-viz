@@ -1,36 +1,25 @@
-# blender-product-viz
-Blender + Python automation for high-volume product visualization. Scene assembly, material variations, batch rendering.
+# Blender Product Visualization Automation
 
-Automated scene assembly and batch rendering for high-volume product visualization.
+Python + Blender for automated product variations at scale.
 
-## Overview
-Python + Blender workflow for generating product variations at scale.
-- Scene setup once, render variations automatically
-- Material and angle variations via parameters
-- Batch output optimized for e-commerce platforms
+## What It Does
+- Generates multiple material/angle variations from a single scene setup
+- Uses Geometry Nodes for procedural generation
+- Batch renders optimized output
 
-## Stack
-- Blender (3.0+)
-- Python 3.9+
-- Bpy (Blender Python API)
+## Requirements
+- Blender 3.0+
+- Scene must have:
+  - Curve objects (for variation parameters)
+  - Ready-to-instance geometry
 
 ## Use Case
-High-volume product catalogs: lighting, decoration, furniture.
-Example: 20 products × 5 material variations × multiple angles = 500+ renders in automated pipeline.
+High-volume product catalogs. Example: 20 products × 5 variations = automated pipeline.
 
-## Key Features
-- Procedural material variations
-- Batch scene assembly
-- Automated render output
-- Platform-specific format optimization
-
-## Getting Started
+## Setup
 ```bash
-# Clone repo
 git clone https://github.com/RobertBrowser228/blender-product-viz.git
-
-# Run in Blender
-# File > Open Script Console > paste content
+# Run script in Blender > Scripting tab
 ```
 
 ## Contact
